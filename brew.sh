@@ -39,11 +39,10 @@ brew install wget --with-iri
 brew install gnupg
 
 # Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
+brew install neovim
 brew install grep
 brew install openssh
 brew install screen
-brew install php
 brew install gmp
 
 # Install font tools.
@@ -80,7 +79,6 @@ brew install xz
 
 # Install other useful binaries.
 brew install ack
-#brew install exiv2
 brew install git
 brew install git-lfs
 brew install gs
@@ -96,6 +94,11 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+brew install autojump
+brew install agf
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Install other tools not in brew formulae
+source brew-polyfill.sh
