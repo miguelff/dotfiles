@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+alias oldvim="/usr/local/bin/vim"
+alias oldvi="/usr/local/bin/vi"
+alias vi="nvim"
+alias vim="nvim"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."

@@ -39,11 +39,11 @@ brew install wget --with-iri
 brew install gnupg
 
 # Install more recent versions of some macOS tools.
-brew install neovim
 brew install grep
 brew install openssh
 brew install screen
 brew install gmp
+brew install neovim
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -96,6 +96,7 @@ brew install vbindiff
 brew install zopfli
 brew install autojump
 brew install agf
+brew install nvm
 
 # Remove outdated versions from the cellar.
 brew cleanup
