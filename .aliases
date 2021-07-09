@@ -18,6 +18,8 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 alias g="git"
+alias gcb="git rev-parse --abbrev-ref HEAD"
+alias gpu="git push -u origin `gcb`"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
